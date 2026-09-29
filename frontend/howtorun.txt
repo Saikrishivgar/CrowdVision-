@@ -1,0 +1,14 @@
+cd /Users/saikrishivgars/Desktop/decktop/ADL/backend
+conda activate adl-backend
+python -m pip install -r requirements.txt
+python -m uvicorn main:app --reload --host 0.0.0.0 --port 8001
+
+
+
+
+
+
+
+cd /Users/saikrishivgars/Desktop/decktop/ADL/frontend
+npm install
+npm run dev
